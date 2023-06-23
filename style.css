@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+#btn{
+    /* background-color: ; */
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 5px;
+    border-radius: 50px;
+    position: relative;
+    transition: .5s;
+}
+.day{
+    background-image: url('comp/day.jpg');
+    background-size: cover;
+}
+.night{
+    background-image: url('comp/night.jpg');
+    background-size: cover;
+}
+#circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    transition: .5s;
+}
+.moon{
+    background-image: url('comp/moon.png');
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+.sun{
+    background-color: rgb(255, 238, 0);
+    transition: .5s;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    transition: .5s;
+}
